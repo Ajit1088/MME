@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Sri Malai Mahadeshwara Group of Companies</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Persistent Global Header & Corporate Navigation -->
+    <header class="mmg-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <!-- Fallback to text styling; image assets can be mapped here later -->
+                <div class="brand-title">MMG</div>
+                <div class="brand-subtitle">GROUP OF COMPANIES</div>
+            </div>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="mmg-nav" id="mainNav">
+                <a href="/about" class="nav-link active" data-link>About Us</a>
+                <a href="/md-profile" class="nav-link" data-link>MD Profile</a>
+                <a href="/manufacturing" class="nav-link" data-link>Manufacturing</a>
+                <a href="/services" class="nav-link" data-link>TurnKey & Services</a>
+                <a href="/approvals" class="nav-link" data-link>Approvals</a>
+                <a href="/why-mmg" class="nav-link" data-link>Why MMG</a>
+                <a href="/solar-ev" class="nav-link" data-link>Solar & EV</a>
+                <a href="/cinema" class="nav-link" data-link>MME Cinema</a>
+                <a href="/contact" class="nav-link nav-btn" data-link>Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SPA Active Target Content Area -->
+    <main id="content-viewport" class="mmg-container"></main>
+
+    <!-- Persistent Global Corporate Footer -->
+    <footer class="mmg-footer">
+        <div class="mmg-container footer-grid">
+            <div class="footer-brand">
+                <h3>MMG Group of Companies</h3>
+                <p>Building Strength. Powering Infrastructure. Energizing the Future.</p>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Sri Sri Malai Mahadeshwara Group. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core Dynamic Routing Engine -->
+    <script src="js/router.js"></script>
+</body>
+</html>
